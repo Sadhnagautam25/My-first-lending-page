@@ -1,0 +1,504 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Poppins", sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d69a3;
+  --padding-inline-section: 20px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  color: var(--secondary-text-color);
+  line-height: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+main{
+  width: 1180px;
+}
+
+/* top banner */
+
+.container {
+max-width: 100vw;
+  /* height: 60px; */
+  background: url(/My-first-lending-page/assest/asset\ 30.png);
+  background-size: 300px;
+  background-color: #4fb3d4;
+}
+
+.para {
+  padding: 15px 30px;
+  color: white;
+  text-align: center;
+}
+
+/* nav bar section */
+
+#navbar {
+  display: flex;
+  max-width: 1180px;
+  flex-wrap: wrap;
+  height: 70px;
+  margin: 0 auto;
+  padding: 10px 0;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.logo {
+  flex-basis: 30%;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.nav-items {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-items a {
+  color: #14598e;
+  font-weight: 600;
+}
+
+.nav-items a:hover{
+  color: var(--accent-color);
+}
+
+.nav-btn {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 0px 20px;
+  font-size: 1rem;
+  color: #14598e;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 1px 1px 0px #14598e;
+  cursor: pointer;
+}
+
+#sign-in {
+  background-color: white;
+  border: 2px solid #becfdc;
+}
+
+#sign-in:hover {
+  background-color: #1d90e8;
+  color: white;
+  box-shadow: 1px 1px 0px #4f4f50;
+}
+
+#sign-up {
+  background-color: #1d90e8;
+  color: white;
+}
+
+#sign-up:hover {
+  background-color: white;
+  border: 2px solid #becfdc;
+  color: #14598e;
+}
+
+/* main section */
+
+main {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+/* hero section  */
+
+.hero-section {
+  margin: 40px 0px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-sec {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-sec h1 {
+  font-size: 40px;
+}
+
+.primary-btn {
+  align-self: self-start;
+  padding: 15px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 1px 1px 0px #14598e;
+  background-color: #1675be;
+  color: white;
+}
+
+.primary-btn:hover{
+   background-color: white;
+  border: 2px solid #becfdc;
+  color: #14598e;
+}
+
+.image-sec img {
+  flex-basis: 50%;
+  width: 600px;
+}
+
+/* companies-section */
+
+.companies-header{
+ text-align: center;
+ margin-block: 20px;
+}
+
+.conpanies-logo-container{
+ max-width: 100vw;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+  
+}
+
+.companie-logo{
+ height: 46px;
+}
+
+/* feature-container */
+
+.feature-section{
+  background-image: url(/My-first-lending-page/assest/asset\ 32.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.feature-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 50px;
+}
+
+.feature-heading{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+
+.learn-more-head{
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #10456e;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid rgb(194, 190, 190);
+}
+
+.feature-leran-more{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 20px;
+
+
+}
+
+.feature-card{
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  gap: 5px;
+  text-align: center;
+
+}
+
+.feature-card img {
+  width: 50px;
+}
+
+
+.feature-card :nth-child(2){
+  font-size: 20px;
+  color: #1e4d71;
+}
+
+.feature-card :nth-child(3){
+  font-size: 18px;
+  padding: 0px 30px;
+  
+}
+
+.feature-card :nth-child(4){
+  text-align: center;
+}
+
+
+.learn-more{
+  padding: 10px;
+  background-color: white;
+  border: 2px solid rgb(187, 186, 186);
+  font-size: 15px;
+  font-weight: 600;
+  color: #10456e;
+  border-radius: 5px;
+}
+
+
+/* big feature section  */
+
+#design-sec{
+  width: 1180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
+}
+
+
+.image-sec img {
+  width: 500px;
+  margin-left: 0px;
+  padding-top: 50px;
+}
+
+#design-sec2{
+  width: 1180px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  
+}
+
+#design-sec3{
+  width: 1180px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  
+}
+
+/* examples-sec */
+
+.examples-sec{
+  width: 1180px;
+  display: flex;
+  flex-direction: column;
+  margin-block: 40px;
+  gap: 20px;
+  
+}
+
+.heading-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.example-cards{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.exam-card{
+  flex-basis: 22%;
+  min-height: 300px;
+  padding: 15px;
+  display: flex;
+  align-items: end;
+  color: white;
+  background-color: black;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+
+}
+
+.exam-card:hover{
+  box-shadow: 0 0 10px #888;
+}
+
+.exam-card h3 {
+  font-weight: 500;
+  font-size: 400;
+}
+
+
+#box-1{
+  background:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/My-first-lending-page/assest/asset\ 34.jpeg);
+  background-size: cover;
+  
+}
+
+#box-2{
+  background:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/My-first-lending-page/assest/asset\ 35.jpeg);
+  background-size: cover;
+  
+}
+
+#box-3{
+  background:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/My-first-lending-page/assest/asset\ 36.jpeg);
+  background-size: cover;
+  
+}
+
+#box-4{
+  background:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/My-first-lending-page/assest/asset\ 37.jpeg);
+  background-size: cover;
+  
+}
+
+/* footer-head-sec */
+
+.footer-head-sec{
+    max-width: 100vw;
+    background-color: #232c4b;
+    background: linear-gradient(to top bottom #262627, #232c4b);
+    color: white;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-head-sec button{
+  padding: 15px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 1px 1px 0px #14598e;
+  background-color: #1675be;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-head-sec p{
+  color: white;
+}
+
+.footer-head-sec button:hover {
+   background-color: white;
+  border: 2px solid #becfdc;
+  color: #14598e;
+}
+
+/* footer-main-sec */
+
+
+.footer-main-sec{
+  max-width: 100vw;
+  display: flex;
+  background-color: rgb(214, 234, 237);
+  min-height: 350px;
+  align-items: center;
+  justify-content: end;
+  padding: 50px;
+
+}
+
+.company-logo{
+  flex-basis: 22%;
+  align-self: flex-start;
+}
+
+.company-logo img{
+  width: 200px;
+ 
+}
+
+.link-column{
+  flex-basis: 22%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.hover-link:hover{
+  color: #1d90e8;
+}
+
+/* subfooter */
+
+.subfooter{
+
+  max-width: 100vw;
+  height: 60px;
+  background-color: rgb(179, 193, 214);
+}
+
+.subfooter-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
