@@ -480,6 +480,9 @@ main {
   gap: 20px;
 }
 
+.hover-link{
+  color: #10456e;
+}
 
 .hover-link:hover{
   color: #1d90e8;
