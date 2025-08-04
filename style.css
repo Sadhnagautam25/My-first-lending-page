@@ -51,21 +51,26 @@ ul {
   list-style: none;
 }
 
-main{
-  width: 1180px;
-}
+
+
+
+
 
 /* top banner */
 
-.container {
-max-width: 100vw;
-  /* height: 60px; */
+.navbar-head {
+  max-width: 100vw;
   background: url(/My-first-lending-page/assest/asset\ 30.png);
   background-size: 300px;
   background-color: #4fb3d4;
+  
+  
+ 
 }
 
 .para {
+  max-width: 100%;
+  height: 100%;
   padding: 15px 30px;
   color: white;
   text-align: center;
@@ -89,7 +94,7 @@ max-width: 100vw;
 }
 
 .logo img {
-  width: 200px;
+  max-width: 200px;
 }
 
 .nav-items {
@@ -103,7 +108,7 @@ max-width: 100vw;
   font-weight: 600;
 }
 
-.nav-items a:hover{
+.nav-items a:hover {
   color: var(--accent-color);
 }
 
@@ -150,8 +155,9 @@ max-width: 100vw;
 /* main section */
 
 main {
-  width: 1180px;
+  max-width: 1180px;
   margin: 0 auto;
+ 
 }
 
 /* hero section  */
@@ -188,53 +194,52 @@ main {
   color: white;
 }
 
-.primary-btn:hover{
-   background-color: white;
+.primary-btn:hover {
+  background-color: white;
   border: 2px solid #becfdc;
   color: #14598e;
 }
 
 .image-sec img {
   flex-basis: 50%;
-  width: 600px;
+  max-width: 600px;
 }
 
 /* companies-section */
 
-.companies-header{
- text-align: center;
- margin-block: 20px;
+.companies-header {
+  text-align: center;
+  margin-block: 20px;
 }
 
-.conpanies-logo-container{
- max-width: 100vw;
- display: flex;
- justify-content: space-between;
- flex-wrap: wrap;
-  
+.conpanies-logo-container {
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.companie-logo{
- height: 46px;
+.companie-logo {
+  height: 46px;
 }
 
 /* feature-container */
 
-.feature-section{
+.feature-section {
   background-image: url(/My-first-lending-page/assest/asset\ 32.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
-.feature-container{
+.feature-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-block: 50px;
 }
 
-.feature-heading{
+.feature-heading {
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
@@ -242,8 +247,7 @@ main {
   align-items: center;
 }
 
-
-.learn-more-head{
+.learn-more-head {
   padding: 10px 20px;
   font-size: 15px;
   font-weight: 600;
@@ -253,16 +257,14 @@ main {
   border: 2px solid rgb(194, 190, 190);
 }
 
-.feature-leran-more{
+.feature-leran-more {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 20px;
-
-
 }
 
-.feature-card{
+.feature-card {
   flex-basis: 30%;
   display: flex;
   flex-direction: column;
@@ -270,31 +272,27 @@ main {
   padding: 10px;
   gap: 5px;
   text-align: center;
-
 }
 
 .feature-card img {
-  width: 50px;
+  max-width: 50px;
 }
 
-
-.feature-card :nth-child(2){
+.feature-card :nth-child(2) {
   font-size: 20px;
   color: #1e4d71;
 }
 
-.feature-card :nth-child(3){
+.feature-card :nth-child(3) {
   font-size: 18px;
   padding: 0px 30px;
-  
 }
 
-.feature-card :nth-child(4){
+.feature-card :nth-child(4) {
   text-align: center;
 }
 
-
-.learn-more{
+.learn-more {
   padding: 10px;
   background-color: white;
   border: 2px solid rgb(187, 186, 186);
@@ -304,67 +302,61 @@ main {
   border-radius: 5px;
 }
 
-
 /* big feature section  */
 
-#design-sec{
-  width: 1180px;
+#design-sec {
+  max-width: 1180px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   column-gap: 50px;
 }
 
-
 .image-sec img {
-  width: 500px;
+  max-width: 500px;
   margin-left: 0px;
   padding-top: 50px;
 }
 
-#design-sec2{
-  width: 1180px;
+#design-sec2 {
+  max-width: 1180px;
   display: flex;
   align-items: center;
   gap: 50px;
-  
 }
 
-#design-sec3{
-  width: 1180px;
+#design-sec3 {
+  max-width: 1180px;
   display: flex;
   align-items: center;
   gap: 50px;
-  
 }
 
 /* examples-sec */
 
-.examples-sec{
-  width: 1180px;
+.examples-sec {
+  max-width: 1180px;
   display: flex;
   flex-direction: column;
   margin-block: 40px;
   gap: 20px;
-  
 }
 
-.heading-section{
+.heading-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  
 }
 
-.example-cards{
+.example-cards {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
-  
 }
 
-.exam-card{
+.exam-card {
   flex-basis: 22%;
   min-height: 300px;
   padding: 15px;
@@ -374,10 +366,9 @@ main {
   background-color: black;
   transition: 0.2s ease-out;
   cursor: pointer;
-
 }
 
-.exam-card:hover{
+.exam-card:hover {
   box-shadow: 0 0 10px #888;
 }
 
@@ -386,47 +377,46 @@ main {
   font-size: 400;
 }
 
-
-#box-1{
-  background:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/My-first-lending-page/assest/asset\ 34.jpeg);
+#box-1 {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(/My-first-lending-page/assest/asset\ 34.jpeg);
   background-size: cover;
-  
 }
 
-#box-2{
-  background:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/My-first-lending-page/assest/asset\ 35.jpeg);
+#box-2 {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(/My-first-lending-page/assest/asset\ 35.jpeg);
   background-size: cover;
-  
 }
 
-#box-3{
-  background:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/My-first-lending-page/assest/asset\ 36.jpeg);
+#box-3 {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(/My-first-lending-page/assest/asset\ 36.jpeg);
   background-size: cover;
-  
 }
 
-#box-4{
-  background:linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(/My-first-lending-page/assest/asset\ 37.jpeg);
+#box-4 {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(/My-first-lending-page/assest/asset\ 37.jpeg);
   background-size: cover;
-  
 }
 
 /* footer-head-sec */
 
-.footer-head-sec{
-    max-width: 100vw;
-    background-color: #232c4b;
-    background: linear-gradient(to top bottom #262627, #232c4b);
-    color: white;
-    min-height: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+.footer-head-sec {
+  max-width: 100vw;
+  background-color: #232c4b;
+  background: linear-gradient(to top bottom #262627, #232c4b);
+  color: white;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
-.footer-head-sec button{
+.footer-head-sec button {
   padding: 15px 20px;
   font-size: 1rem;
   font-weight: 600;
@@ -438,20 +428,19 @@ main {
   cursor: pointer;
 }
 
-.footer-head-sec p{
+.footer-head-sec p {
   color: white;
 }
 
 .footer-head-sec button:hover {
-   background-color: white;
+  background-color: white;
   border: 2px solid #becfdc;
   color: #14598e;
 }
 
 /* footer-main-sec */
 
-
-.footer-main-sec{
+.footer-main-sec {
   max-width: 100vw;
   display: flex;
   background-color: rgb(214, 234, 237);
@@ -459,20 +448,18 @@ main {
   align-items: center;
   justify-content: end;
   padding: 50px;
-
 }
 
-.company-logo{
+.company-logo {
   flex-basis: 22%;
   align-self: flex-start;
 }
 
-.company-logo img{
-  width: 200px;
- 
+.company-logo img {
+  max-width: 200px;
 }
 
-.link-column{
+.link-column {
   flex-basis: 22%;
   min-height: 100%;
   display: flex;
@@ -480,27 +467,27 @@ main {
   gap: 20px;
 }
 
-.hover-link{
+.hover-link {
   color: #10456e;
 }
 
-.hover-link:hover{
+.hover-link:hover {
   color: #1d90e8;
 }
 
 /* subfooter */
 
-.subfooter{
-
+.subfooter {
   max-width: 100vw;
   height: 60px;
   background-color: rgb(179, 193, 214);
 }
 
-.subfooter-container{
-  width: 100%;
+.subfooter-container {
+  max-width: 100%;
   height: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 20px;

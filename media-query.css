@@ -1,0 +1,284 @@
+/* media query less than 1280px width  */
+
+@media screen and (max-width: 1024px) {
+  /* top banner */
+
+  .overflow {
+    overflow: hidden;
+  }
+
+  #navbar {
+    padding: 10px 15px;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .logo {
+    flex-basis: 25%;
+  }
+
+  .logo img {
+    max-width: 180px;
+  }
+
+  .nav-btn {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /* hero section  */
+
+  .hero-section {
+    margin: 40px 20px;
+  }
+
+  .content-sec h1 {
+    font-size: 30px;
+  }
+
+  .primary-btn {
+    align-self: self-start;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 1px 1px 0px #14598e;
+    background-color: #1675be;
+    color: white;
+  }
+
+  /* companies-section */
+
+  .conpanies-logo-container {
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-inline: 20px;
+  }
+
+  .companie-logo {
+    height: 40px;
+  }
+
+  /* big feature section  */
+
+  #design-sec {
+    column-gap: 30px;
+    margin-inline: 20px;
+  }
+
+  #design-sec2 {
+    gap: 30px;
+    margin-inline: 20px;
+  }
+
+  #design-sec3 {
+    gap: 30px;
+    margin-inline: 20px;
+  }
+  /* example section  */
+
+  .example-cards {
+    margin-inline: 20px;
+  }
+
+  .exam-card {
+    flex-basis: 48%;
+    min-height: 350px;
+  }
+  .exam-card h3 {
+    font-size: 30px;
+  }
+
+  .footer-main-sec {
+    justify-content: space-around;
+  }
+
+  .company-logo {
+    flex-basis: 20%;
+  }
+
+  .company-logo img {
+    max-width: 150px;
+  }
+}
+
+/* @media screen and (max-width:768px)  */
+
+@media screen and (max-width: 890px) {
+  .nav-items {
+    display: none;
+  }
+
+  .logo {
+    flex-basis: 60%;
+  }
+
+  .nav-btn {
+    flex-basis: 30%;
+    justify-content: end;
+  }
+
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .conpanies-logo-container {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .companie-logo {
+    height: 40px;
+  }
+  #feature-heading-text {
+    font-size: 25px;
+  }
+
+  .feature-card {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    text-align: center;
+  }
+
+  /*  big feature section  */
+
+  #design-sec {
+    flex-direction: column;
+    gap: 30px;
+    margin-block: 20px;
+  }
+
+  .image-sec img {
+    padding-top: 0px;
+  }
+
+  .design-text-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .design-text-sec p {
+    text-align: center;
+  }
+
+  #design-sec2 {
+    flex-direction: column-reverse;
+    gap: 30px;
+    margin-block: 20px;
+  }
+
+  #design-sec3 {
+    flex-direction: column;
+    gap: 30px;
+    margin-block: 20px;
+  }
+
+  .example-cards {
+    margin-inline: 20px;
+  }
+
+  .exam-card {
+    flex-basis: 98%;
+    min-height: 350px;
+  }
+  .exam-card h3 {
+    font-size: 30px;
+  }
+
+  /* footer  */
+
+  .footer-main-sec {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .company-logo {
+    flex-basis: 48%;
+  }
+  .company-logo img {
+    max-width: 250px;
+  }
+
+  .link-column {
+    flex-basis: 48%;
+  }
+}
+
+/* @media screen and (max-width: 640px)  */
+
+@media screen and (max-width: 640px) {
+  .company-logo {
+    flex-basis: 30%;
+    align-self: center;
+  }
+
+  .link-column {
+    flex-basis: 98%;
+    align-items: center;
+  }
+}
+
+/* @media screen and (max-width: 520px)  */
+
+@media screen and (max-width: 520px) {
+  #navbar {
+    gap: 20px;
+  }
+
+  .logo {
+    flex-basis: 98%;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-btn {
+    flex-basis: 98%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-sec {
+    flex-basis: 100%;
+    align-items: center;
+  }
+
+  .content-sec h1 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .content-sec p {
+    text-align: center;
+  }
+
+  .primary-btn {
+    align-self: center;
+    margin-bottom: 15px;
+  }
+
+  .image-sec img {
+    flex-basis: 100%;
+    max-width: 350px;
+  }
+
+  #feature-heading-text{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .footer-head-sec p {
+  text-align: center;
+}
+.subfooter-container {
+  
+  gap: 5px;
+}
+}
