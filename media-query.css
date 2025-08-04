@@ -225,6 +225,10 @@
     flex-basis: 98%;
     align-items: center;
   }
+  #feature-heading-text{
+    font-size: 23px;
+    text-align: center;
+  }
 }
 
 /* @media screen and (max-width: 520px)  */
